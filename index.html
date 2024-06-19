@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tokners - Landing Page</title>
+    <!-- tailwind files  -->
+    <link rel="stylesheet" href="./src/output.css">
+    <!-- fontAwesome cdn  -->
+    <script src="https://kit.fontawesome.com/d633f21f4a.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="font-roboto relative">
+    <img class="absolute -z-10 right-0 top-0" src="imgs/bg-1.png" alt="">
+    <!-- start header  -->
+    <header class="flex items-center justify-center h-[84px]">
+        <div class="container flex items-center justify-between">
+            <div class="logo-holder w-32">
+                <img src="imgs/logo.png" alt="">
+            </div>
+            <div class="menu-icon block md:hidden text-white text-2xl z-[9999]">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <nav class="hidden md:flex md:flex-row md:gap-10 items-center justify-between text-white flex-col ">
+                <ul class="">
+                    <li class="main-link"><a class="underline decoration-[none]" href="#">our team</a></li>
+                    <li class="main-link"><a class="underline" href="#">tokens</a></li>
+                    <li class="main-link"><a class="underline" href="#">connect wallet</a></li>
+                    <li class="main-link"><a class="underline" href="#">lightpaper</a></li>
+                </ul>
+                <ul class="">
+                    <li class="main-link"><a class="underline" href="#">sign in</a></li>
+                    <li
+                        class="main-link main-btn bg-white text-black transition-all duration-300 hover:bg-green shadow-2xl">
+                        <a class="underline" href="#">sign
+                            up</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- end header  -->
+    <!-- start hero section  -->
+    <section class="py-10 h-[calc(100vh_-_84px)] flex items-center justify-center mb-10">
+        <div
+            class="container flex flex-col-reverse md:flex-row items-center justify-center md:justify-between gap-5 md:gap-10">
+            <div>
+                <span class="text-blue text-center md:text-start block mb-5 md:mb-1 font-bold">At Tokners are</span>
+                <h2 class="font-bold text-2xl mb-5 leading-relaxed">
+                    Reimagining social media through the power of the blockchain.
+                </h2>
+                <p class="text-lightBlack text-xs mb-5 md:mb-7 opacity-50 md:text-xl">
+                    We are creating social media 3.0 with influencers, celebrities and creators being able to launch
+                    their own digital currency by simply creating a profile with media content posted as Non fungible
+                    Tokens that can be owned and traded on the Tokners network
+                </p>
+                <a class="main-btn bg-green border-2 border-transparent transition-all duration-300 hover:text-green hover:border-green hover:bg-transparent text-white mb-5 md:mb-7"
+                    href="#">Learn More</a>
+            </div>
+            <div>
+                <img src="imgs/1.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- start hero section  -->
+    <!-- start third section  -->
+    <section class="text-center relative grid h-fit gap-20">
+        <img class="hidden lg:block absolute -z-[1000] left-0 bottom-[-50px] w-full object-cover" src="imgs/bg-2.png"
+            alt="">
+        <div
+            class="container grid grid-cols-1 grid-rows-2 gap-10 md:grid-cols-2 md:grid-rows-1 md:gap-0 items-center justify-items-center">
+            <div
+                class="group hover:bg-slate-200 hover:shadow-2xl bg-slate-100 p-8 flex flex-col items-center justify-between gap-0 h-[490px] w-[75%] overflow-hidden rounded-2xl shadow-md transition-all duration-300">
+                <div>
+                    <h2 class="font-bold text-2xl">For <span class="underline text-green">Creators</span></h2>
+                    <p class="my-4 xt-lightBlack text-xs opacity-50">Creators can gain independence through a
+                        decentralised digital currency system that
+                        is
+                        dependent on growing and engaging with the community and also their star power. They own
+                        10-15% of the total value of the tokens minted.
+                    </p>
+                </div>
+                <div class="w-40">
+                    <img class="group-hover:scale-125 group-hover:translate-y-10 transition-all duration-300"
+                        src="imgs/3.png" alt="">
+                </div>
+            </div>
+            <div
+                class="group hover:bg-slate-200 hover:shadow-2xl bg-slate-100 p-8 flex flex-col items-center justify-between gap-0 h-[490px] w-[75%] overflow-hidden rounded-2xl shadow-md transition-all duration-300">
+                <div>
+                    <h2 class="font-bold text-2xl">For <span class="underline text-blue">Hodlers</span></h2>
+                    <p class="my-4 xt-lightBlack text-xs opacity-50">Holding social tokens allows the individual to gain
+                        access to benefits including
+                        unreleased
+                        content, private communities, direct access to celebrity, early-access to tickets and more as
+                        well
+                        as the ability to trade with other communities in order to gain access to more creator content
+                        with
+                        early token buyers being the biggest winners as the value of the token increases with more
+                        buyers.
+                    </p>
+                </div>
+                <div class="w-40">
+                    <img class="group-hover:scale-125 group-hover:translate-y-10 transition-all duration-300"
+                        src="imgs/2.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container text-start flex flex-col items-center md:flex-row md:items-start justify-center gap-10">
+            <div class="flex gap-5 items-center px-5">
+                <img src="imgs/logo-shape.png" alt="">
+                <h2 class="text-blue text-2xl xl:text-white font-extrabold">What makes us different?</h2>
+            </div>
+            <div class="flex flex-col gap-5 basis-1/2 px-5">
+                <p class="font-medium text-blue xl:text-white">We would only
+                    launch tokens with the express
+                    permission of the creators.</p>
+                <p class="opacity-50 text-xm leading-relaxed text-lightBlack lg:text-lightGray">
+                    There are several thousand celebrities and creators on twitter, tiktok, Instagram and YouTube with
+                    followings in the millions who we would be actively engaging before we go viral.
+                </p>
+                <p class="opacity-50 text-xm leading-relaxed text-lightBlack lg:text-lightGray">
+                    We would get them on our
+                    platform and they would see the opportunity to create a fan driven digital economy where their
+                    digital content can be traded as NFTs and their most loyal fans can have the monetary value of their
+                    creator's currency increase significantly as they promote their digital currency across their
+                    channels while our native token holders benefit from the Tokners popularity.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- end third section  -->
+    <!-- start history -->
+    <section class="py-10 relative md:mb-10">
+        <img class="absolute -z-[1000] right-0 top-0 w-44" src="imgs/areplane.png" alt="">
+        <div class="container">
+            <div
+                class="w-full grid grid-cols-1 grid-rows-4 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-4 lg:grid-rows-1 gap-5">
+                <div class="card">
+                    <div
+                        class="mb-10 border-4 border-x-0 border-t-0 border-dotted rounded-bl-[30%] py-[23px] px-[17px]">
+                        <span class="text-green font-bold">Q1</span>
+                        <p
+                            class="font-bold text-xl mb-3 relative before:bg-green before:absolute before:w-2 before:h-2 before:rounded-full before:-left-7 before:top-[80%]">
+                            2021</p>
+                    </div>
+                    <p class="text-lightBlack opacity-60 text-sm"><span class="mr-4 text-blue text-sm">01</span>Team
+                        set-up</p>
+                    <p class="text-lightBlack opacity-60 text-sm"><span class="mr-4 text-blue text-sm">02</span>Launch
+                        of
+                        informational website</p>
+                </div>
+                <div class="card">
+                    <div
+                        class="mb-10 border-4 border-x-0 border-t-0 border-dotted rounded-bl-[30%] py-[23px] px-[17px]">
+                        <span class="text-green font-bold">Q2</span>
+                        <p
+                            class="font-bold text-xl mb-3 relative before:bg-green before:absolute before:w-2 before:h-2 before:rounded-full before:-left-7 before:top-[80%]">
+                            2021</p>
+                    </div>
+                    <p class="text-lightBlack opacity-60 text-sm"><span class="mr-4 text-blue text-sm">01</span>Presale
+                        and exchange listings</p>
+                    <p class="text-lightBlack opacity-60 text-sm"><span
+                            class="mr-4 text-blue text-sm">02</span>Blockchain development and launch</p>
+                    <p class="text-lightBlack opacity-60 text-sm"><span class="mr-4 text-blue text-sm">03</span>Launch
+                        of our MVP</p>
+                    <p class="text-lightBlack opacity-60 text-sm"><span
+                            class="mr-4 text-blue text-sm">04</span>Influencer agency partnerships</p>
+                    <p class="text-lightBlack opacity-60 text-sm"><span
+                            class="mr-4 text-blue text-sm">05</span>Marketing and promotion</p>
+                </div>
+                <div class="card">
+                    <div
+                        class="mb-10 border-4 border-x-0 border-t-0 border-dotted rounded-bl-[30%] py-[23px] px-[17px]">
+                        <span class="text-green font-bold">Q3</span>
+                        <p
+                            class="font-bold text-xl mb-3 relative before:bg-green before:absolute before:w-2 before:h-2 before:rounded-full before:-left-7 before:top-[80%]">
+                            2021</p>
+                    </div>
+                    <p class="text-lightBlack opacity-60 text-sm"><span class="mr-4 text-blue text-sm">01</span>Creator
+                        and Influencer partnerships</p>
+                    <p class="text-lightBlack opacity-60 text-sm"><span class="mr-4 text-blue text-sm">02</span>creator
+                        communities on our platform</p>
+                    <p class="text-lightBlack opacity-60 text-sm"><span class="mr-4 text-blue text-sm">03</span>More
+                        Marketing and promotion</p>
+                </div>
+                <div class="card">
+                    <div
+                        class="mb-10 border-4 border-x-0 border-t-0 border-dotted rounded-bl-[30%] py-[23px] px-[17px]">
+                        <span class="text-green font-bold">Q4</span>
+                        <p
+                            class="font-bold text-xl mb-3 relative before:bg-green before:absolute before:w-2 before:h-2 before:rounded-full before:-left-7 before:top-[80%]">
+                            2021</p>
+                    </div>
+                    <p class="text-lightBlack opacity-60 text-sm"><span
+                            class="mr-4 text-blue text-sm">01</span>Mainstream partnerships</p>
+                    <p class="text-lightBlack opacity-60 text-sm"><span class="mr-4 text-blue text-sm">02</span>500
+                        active creator communities</p>
+                    <p class="text-lightBlack opacity-60 text-sm"><span class="mr-4 text-blue text-sm">03</span>2Million
+                        active community members</p>
+                    <p class="text-lightBlack opacity-60 text-sm"><span class="mr-4 text-blue text-sm">03</span>More
+                        Marketing and promotion</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end history -->
+    <!-- start coming section  -->
+    <section class="relative py-5 md:py-40">
+        <img class="absolute w-full h-full -z-[8] right-0 bottom-0 hidden md:block" src="imgs/bg-3.png" alt="">
+        <div class="container flex flex-col-reverse md:flex-row">
+            <div class="flex flex-col gap-3 basis-1/2">
+                <h2 class="font-bold text-2xl ">Tokners is coming</h2>
+                <p class="text-xs font-medium">Cryptocurrency adoption is at less than 1% of the global world population
+                    with some
+                    countries
+                    and entities actively fighting against its mass adoption and the smartest developers and nerds
+                    holding the fort.</p>
+                <p class="text-lightBlack opacity-60 text-xs">Bitcoin was the first, and it has since grown to thousands
+                    of tokens launched all
+                    aiming to fix one problem or the other with some quite simply FOMOing the moment. Our goal is
+                    to bring mass adoption to the cryptocurrency space by dumbing it down. How far down? So
+                    down that even a celebrity can explain it in simple words to their followers and have them
+                    download an app, buy into the social currency of their favourite person and watch their
+                    investment as is with other cryptocurrency project.</p>
+                <p class="text-lightBlack opacity-60 text-xs">We are trying to do to this space what
+                    investment apps did for the "nonexistent retail investors". We are gamefying digital currency,
+                    bringing in popular faces instead of hard to understand projects to make it the norm and
+                    inadvertently being the "gateway drug" for a lot of people to finally give this space a real look.
+                </p>
+                <p class="text-xs font-medium">A new digital economy is coming. People would be just as powerful as
+                    countries and creators
+                    would be paid beyond the peanuts that conventional social media platforms can offer. </p>
+                <p class="text-lightBlack opacity-60 text-xs">There
+                    would be new markets and advertisers with little to offer would not find home there. Like Kanye
+                    said, "Personalities would become the new currency, and services would be built on top of them".
+                    Well, Kanye didn't exactly say that, but it sounds like something we hope he would say.
+                </p>
+                <p class="text-lightBlack opacity-60 text-xs">Currency is digital, it has been that way for a while now,
+                    but this time there would be no
+                    dead
+                    presidents on the money, there would people like you on the money, and you would own it
+                    because it would make the most sense in the world.</p>
+            </div>
+            <div
+                class="group basis-1/2 relative before:absolute before:w-[85%] before:h-[75%] before:-z-[8] flex items-center justify-center before:rounded-3xl before:shadow-md hover:before:shadow-2xl duration-300 transition-all before:duration-300 before:transition-all before:bg-[#F7F5F9]">
+                <img class="z-10 group-hover:scale-110 duration-300 transition-all" src="imgs/6.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- end coming section  -->
+    <!-- start details section  -->
+    <section class="relative py-5 md:py-40 mt-40">
+        <img class="absolute -z-[9] right-0 bottom-0 hidden md:block w-full object-cover" src="imgs/bg-4.png" alt="">
+        <div class="container">
+            <h2 class="text-white text-center mb-5 font-bold text-3xl">Presale Details</h2>
+            <div
+                class="holder grid grid-cols-1 grid-rows-3 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1 gap-5 pb-10">
+                <div
+                    class="card relative z-10 h-[340px] bg-white p-4 text-center flex flex-col items-center justify-center gap-3 rounded-3xl shadow-xl duration-300 transition-all hover:-translate-y-10 md:hover:-translate-y-10 hover:shadow-2xl">
+                    <span
+                        class="text-shadow z-[-1] opacity-25 absolute top-1/4 -translate-y-1/2 text-8xl text-white">01</span>
+                    <div>
+                        <h4 class="text-2xl font-bold opacity-75 leading-loose tracking-wider">phase One</h4>
+                        <p class="text-xl font-bold opacity-75 leading-loose">0/04/2021 - 16/04/2021</p>
+                    </div>
+                    <div>
+                        <p class="leading-relaxed font-medium mb-3 text-xl">1 BNB = 100000 Tokners</p>
+                        <p class="leading-relaxed font-medium">Soft cap: 5000 BNB</p>
+                        <p class="leading-relaxed font-medium">Hard cap: 10000 BNB</p>
+                    </div>
+                </div>
+                <div
+                    class="card relative z-10 h-[340px] bg-white p-4 text-center flex flex-col items-center justify-center gap-3 rounded-3xl shadow-xl lg:translate-y-10 duration-300 transition-all hover:-translate-y-0 hover:shadow-2xl">
+                    <img class="absolute -z-[9] right-0 -bottom-[15px] md:bottom-[-30px] w-[30%] md:block"
+                        src="imgs/4.png" alt="">
+                    <span
+                        class="text-shadow z-[-1] opacity-25 absolute top-1/4 -translate-y-1/2 text-8xl text-white">02</span>
+                    <div>
+                        <h4 class="text-2xl font-bold opacity-75 leading-loose tracking-wider">phase Two</h4>
+                        <p class="text-xl font-bold opacity-75 leading-loose">0/04/2021 - 16/04/2021</p>
+                    </div>
+                    <div>
+                        <p class="leading-relaxed font-medium mb-3 text-xl">1 BNB = 100000 Tokners</p>
+                        <p class="leading-relaxed font-medium">Soft cap: 5000 BNB</p>
+                        <p class="leading-relaxed font-medium">Hard cap: 10000 BNB</p>
+                    </div>
+                    <img class="absolute -z-[9] -left-4 -bottom-[15px] md:bottom-[-30px] w-[30%] md:block"
+                        src="imgs/5.png" alt="">
+                </div>
+                <div
+                    class="card relative z-10 h-[340px] bg-white p-4 text-center flex flex-col items-center justify-center gap-3 rounded-3xl shadow-xl duration-300 transition-all hover:translate-y-10 hover:shadow-2xl">
+                    <span
+                        class="text-shadow z-[-1] opacity-25 absolute top-1/4 -translate-y-1/2 text-8xl text-white">03</span>
+                    <div>
+                        <h4 class="text-2xl font-bold opacity-75 leading-loose tracking-wider">phase Three</h4>
+                        <p class="text-xl font-bold opacity-75 leading-loose">0/04/2021 - 16/04/2021</p>
+                    </div>
+                    <div>
+                        <p class="leading-relaxed font-medium mb-3 text-xl">1 BNB = 100000 Tokners</p>
+                        <p class="leading-relaxed font-medium">Soft cap: 5000 BNB</p>
+                        <p class="leading-relaxed font-medium">Hard cap: 10000 BNB</p>
+                    </div>
+                </div>
+            </div>
+            <div class="py-10 mt-10 flex flex-col gap-2 text-center text-blue md:text-white">
+                <h2 class="font-bold text-3xl">How to buy</h2>
+                <p class="text-blue md:text-white">First Connect your Metamask or TrustWallet to the "Connect Wallet" on
+                    the Homepage.</p>
+                <i class="text-blue md:text-white fa-solid fa-sort-down"></i>
+                <p class="text-blue md:text-white ">Then send minimum of 0.1 BNB or maximum of 10 BNB to the Presale
+                    wallet</p>
+                <i class="text-blue md:text-white fa-solid fa-sort-down"></i>
+                <p class="text-blue md:text-white ">Then after you will received your $Tokners to your address within
+                    24hours. </p>
+            </div>
+        </div>
+    </section>
+    <!-- end details section  -->
+    <!-- start footer  -->
+    <footer class="py-20">
+        <div class="container text-white">
+            <div
+                class="grid grid-cols-1 grid-rows-3 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1 items-center justify-center justify-items-center gap-5">
+                <div class="">
+                    <img src="imgs/logo-2.png" alt="">
+                </div>
+                <div class="flex items-center gap-3">
+                    <i
+                        class="fa-brands fa-twitter bg-blue p-2 rounded-lg hover:rounded-full cursor-pointer transition-all duration-300"></i>
+                    <i
+                        class="fa-brands fa-telegram bg-blue p-2 rounded-lg hover:rounded-full cursor-pointer transition-all duration-300"></i>
+                    <i
+                        class="fa-brands fa-instagram bg-blue p-2 rounded-lg hover:rounded-full cursor-pointer transition-all duration-300"></i>
+                    <i
+                        class="fa-brands fa-tiktok bg-blue p-2 rounded-lg hover:rounded-full cursor-pointer transition-all duration-300"></i>
+                    <i
+                        class="fa-brands fa-facebook bg-blue p-2 rounded-lg hover:rounded-full cursor-pointer transition-all duration-300"></i>
+                    <i
+                        class="fa-brands fa-linkedin bg-blue p-2 rounded-lg hover:rounded-full cursor-pointer transition-all duration-300"></i>
+                </div>
+                <div class="">
+                    <p>© 2021 Tokners. All rights reserved.</p>
+                    <a class="text-lg font-bold text-green" href="https://sm8rtdev.online/">DESIGN BY HESSEN NASSER</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer  -->
+
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

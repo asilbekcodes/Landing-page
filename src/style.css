@@ -1,0 +1,30 @@
+nav.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    width: 100%;
+    height: 100vh;
+    background-color: #22A75D;
+    z-index: 100;
+}
+
+nav.active ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+span.text-shadow {
+    text-shadow: -1px 1px 0 #191b2186,
+        1px 1px 0 #191b2186,
+        1px -1px 0 #191b2186,
+        -1px -1px 0 #191b2186;
+}
+footer {
+    background-image: url(imgs/bg-5.png);
+}
